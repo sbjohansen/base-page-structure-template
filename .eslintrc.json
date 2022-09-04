@@ -1,0 +1,26 @@
+{
+"extends": [
+    "react-app",
+    "react-app/jest",
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "comma-dangle": "off",
+    "no-unused-vars": "warn"
+  },
+  "plugins": ["prettier"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+
+}
